@@ -13,11 +13,12 @@ def budget_planner():
         print("\nBudget Planner")
         print("===========")
         print("Budget:$,budget")
-        print("remaining budget;$",budget-total_expenses)
+        remaining_budget=budget-total_expenses
+        print("remaining_budget;$",budget-total_expenses)
         
-        if remaining budget>budget:
+        if remaining_budget>budget:
             print("you have exceed your budget")
-        elif remaining budget==budget:
+        elif remaining_budget==budget:
             print("you have fully utilized your budget")
         else:
             print("you have remaining budget")
